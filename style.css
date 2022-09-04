@@ -869,7 +869,8 @@ body.dark #theme-toggle-btn:before { background: rgba(255,255,255,0.6); border-c
 	
 	.nav-menu:not(.mobile) { float: right; }
 	.nav-menu:not(.mobile) .menu > li { width: 100%; }
-	.nav-menu:not(.mobile) button { background: rgba(0,0,0,0.08); padding: 0 8px; }
+	.nav-menu:not(.mobile) .menu > li > span > a { line-height: 1.4em; }
+	.nav-menu:not(.mobile) button { background: rgba(0,0,0,0.08); padding: 4px 8px; border-radius: 20px; }
 	.nav-menu:not(.mobile) button .svg-icon { transform: rotate(-90deg); top: -3px; }
 	.nav-menu:not(.mobile) .menu > li { margin: 0; }
 	.nav-menu:not(.mobile) .menu ul { font-size: 15px; top: 0; left: 290px; }
@@ -881,7 +882,7 @@ body.dark #theme-toggle-btn:before { background: rgba(255,255,255,0.6); border-c
 	.nav-menu:not(.mobile) .menu ul:after { border: 8px solid transparent; border-right-color: #333; left: -15px; top: 15px; }
 	.nav-menu:not(.mobile) .menu { margin: 0 -30px; }
 	.nav-menu:not(.mobile) .menu > li {  }
-	.nav-menu:not(.mobile) .menu > li > span { padding: 14px 30px; }
+	.nav-menu:not(.mobile) .menu > li > span { padding: 10px 30px; }
 
 }
 
