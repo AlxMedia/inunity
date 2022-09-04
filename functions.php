@@ -75,8 +75,8 @@ if ( ! function_exists( 'inunity_setup' ) ) {
 		// Thumbnail sizes
 		add_image_size( 'inunity-small', 300, 300, true );
 		add_image_size( 'inunity-medium', 520, 293, true );
-		add_image_size( 'inunity-medium-h', 520 );
-		add_image_size( 'inunity-large-h', 940 );
+		add_image_size( 'inunity-medium-h', 420 );
+		add_image_size( 'inunity-large-h', 780 );
 		
 		// Thumbnail sizes custom widgets
 		add_image_size( 'alx-small', 200, 200, true );
