@@ -29,6 +29,7 @@
 					<div class="entry-content">
 						<div class="entry themeform">
 							<?php the_content(); ?>
+							<?php wp_link_pages(array('before'=>'<div class="post-pages">'.esc_html__('Pages:','inunity'),'after'=>'</div>')); ?>
 							<div class="clear"></div>
 						</div><!--/.entry-->
 					</div>
