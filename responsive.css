@@ -89,7 +89,7 @@
 	.theme-toggle-on #header .social-links { margin: 0; float: left; }
 	.theme-toggle-on #header .social-links li { margin: 0 14px 0 0; }
 	
-	.toggle-search { background: none; border: 0; width: auto; position: absolute; height: auto; left: 8px; top: -50px; z-index: 103; margin: 0; padding: 11px 12px; }
+	.toggle-search { background: none; border: 0; width: auto; position: absolute; height: auto; right: auto; left: 8px; top: -50px; z-index: 103; margin: 0; padding: 11px 12px; }
 	.toggle-search:hover,
 	.toggle-search.active { background: transparent; padding-top: 11px; padding-bottom: 11px; }
 	.toggle-search .svg-icon { fill: #333; }
