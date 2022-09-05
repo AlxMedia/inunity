@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Inunity\n"
-"POT-Creation-Date: 2022-09-05 10:54+0200\n"
+"POT-Creation-Date: 2022-09-05 13:02+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -123,19 +123,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:691
+#: functions.php:692
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:695
+#: functions.php:696
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:699
+#: functions.php:700
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:703
+#: functions.php:704
 msgid "WP-PageNavi"
 msgstr ""
 
@@ -759,6 +759,10 @@ msgid "Change radius of the content boxes."
 msgstr ""
 
 #: functions/theme-options.php:712
+msgid "Header / Sidebar Color"
+msgstr ""
+
+#: functions/theme-options.php:720
 msgid "Background Color"
 msgstr ""
 

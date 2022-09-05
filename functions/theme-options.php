@@ -705,6 +705,14 @@ Kirki::add_field( 'inunity_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Styling: Header / Sidebar Color
+Kirki::add_field( 'inunity_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-header-sidebar',
+	'label'			=> esc_html__( 'Header / Sidebar Color', 'inunity' ),
+	'section'		=> 'styling',
+	'default'		=> '#ffffff',
+) );
 // Styling: Background Color
 Kirki::add_field( 'inunity_theme', array(
 	'type'			=> 'color',

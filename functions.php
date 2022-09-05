@@ -545,6 +545,7 @@ if ( ! function_exists( 'inunity_body_class' ) ) {
 		if ( get_theme_mod( 'dark-theme' ,'off' ) == 'on' ) { $classes[] = 'dark'; }
 		if ( get_theme_mod( 'invert-logo' ,'on' ) == 'on' ) { $classes[] = 'invert-dark-logo'; }
 		if ( get_theme_mod( 'theme-toggle' ,'on' ) == 'on' ) { $classes[] = 'theme-toggle-on'; }
+		if ( get_theme_mod( 'color-header-sidebar' ,'#ffffff' ) != '#ffffff' ) { $classes[] = 'header-color'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
 		return $classes;
 	}

@@ -91,5 +91,8 @@ Content images
 
 == Changelog ==
 
+= 1.0.1 - 2022-09-05 =
+* Added header / sidebar color styling option
+
 = 1.0.0 - 2022-09-05 =
 * Initial release
