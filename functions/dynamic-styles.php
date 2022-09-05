@@ -170,25 +170,15 @@ body.dark.header-color #theme-toggle-btn:before { background: '.esc_attr( get_th
 
 .header-color .menu-toggle-icon span { background: #fff; }
 .header-color .nav-menu.mobile button:focus,
-.header-color .menu-toggle:focus { background: rgba(255,255,255,0.04); }
+.header-color .menu-toggle:focus { background: rgba(255,255,255,0.06); }
 .header-color .nav-menu a { color: #fff; }
 .header-color .nav-menu .svg-icon { fill: #fff; }
-.header-color .nav-menu:not(.mobile) .menu ul { background: #fff; color: #fff; }
-.header-color .nav-menu:not(.mobile) .menu ul:after { border-bottom-color: #fff; }
-.header-color .nav-menu:not(.mobile) .menu ul ul:after { border-bottom-color: transparent; border-right-color: #fff; }
-.header-color .nav-menu-dropdown-left .nav-menu:not(.mobile) .menu ul ul:after { border-left-color: #fff; border-bottom-color: transparent; }
 
-.header-color .nav-menu:not(.mobile) a { color: rgba(255,255,255,0.6); }
-.header-color .nav-menu:not(.mobile) a:hover { color: #fff; }
-.header-color .nav-menu:not(.mobile) ul ul a:hover { color: #555; }
-.header-color .nav-menu:not(.mobile) ul ul > li:hover > span { background: rgba(0,0,0,0.04); }
-.header-color .nav-menu:not(.mobile) ul ul a { color: #333; }
-.header-color .nav-menu:not(.mobile) button { color: #666; }
-.header-color .nav-menu:not(.mobile) button.active { background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.6); }
-.header-color .nav-menu:not(.mobile) button .svg-icon { fill: rgba(255,255,255,0.7); }
-.header-color .nav-menu:not(.mobile) ul ul button { color: #333; }
-.header-color .nav-menu:not(.mobile) ul ul button.active { background: #eee; color: rgba(255,255,255,0.5); }
-.header-color .nav-menu:not(.mobile) ul ul button .svg-icon { fill: rgba(0,0,0,0.5); }
+.header-color .nav-menu:not(.mobile) > div > ul > li > span > a { color: rgba(255,255,255,0.6); }
+.header-color .nav-menu:not(.mobile) > div > ul > li > span > a:hover { color: #fff; }
+.header-color .nav-menu:not(.mobile) > div > ul > li > span > button { color: #666; }
+.header-color .nav-menu:not(.mobile) > div > ul > li > span > button.active { background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.6); }
+.header-color .nav-menu:not(.mobile) > div > ul > li > span > button .svg-icon { fill: rgba(255,255,255,0.7); }
 
 .header-color .nav-menu:not(.mobile) li.current_page_item > span > a, 
 .header-color .nav-menu:not(.mobile) li.current-menu-item > span > a, 
@@ -210,8 +200,7 @@ body.dark.header-color #theme-toggle-btn:before { background: '.esc_attr( get_th
 .header-color .nav-menu.mobile > div > ul { border-top: 1px solid rgba(255,255,255,0.07); }
 
 @media only screen and (min-width: 1024px) {
-	.header-color .nav-menu:not(.mobile) button { background: rgba(0,0,0,0.15); }
-	.header-color .nav-menu:not(.mobile) .menu ul:after { border: 8px solid transparent; border-right-color: #fff; }
+	.header-color .nav-menu:not(.mobile) button { background: rgba(0,0,0,0.1); }
 	.header-color .nav-menu:not(.mobile) ul ul button { background: transparent; color: rgba(255,255,255,0.5); }
 }
 
