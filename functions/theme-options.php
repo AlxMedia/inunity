@@ -167,6 +167,24 @@ Kirki::add_field( 'inunity_theme', array(
 	'section'		=> 'blog',
 	'default'		=> 'on',
 ) );
+// Blog: Titles
+Kirki::add_field( 'inunity_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'item-titles',
+	'label'			=> esc_html__( 'Item Titles', 'inunity' ),
+	'description'	=> esc_html__( 'Show titles on items', 'inunity' ),
+	'section'		=> 'blog',
+	'default'		=> 'on',
+) );
+// Blog: Category
+Kirki::add_field( 'inunity_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'item-category',
+	'label'			=> esc_html__( 'Item Categories', 'inunity' ),
+	'description'	=> esc_html__( 'Show categories below each item', 'inunity' ),
+	'section'		=> 'blog',
+	'default'		=> 'on',
+) );
 // Blog: Single - Authorbox
 Kirki::add_field( 'inunity_theme', array(
 	'type'			=> 'switch',

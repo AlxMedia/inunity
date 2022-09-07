@@ -91,6 +91,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.2 - 2022-09-07 =
+* Added additional portfolio options for displaying or hiding titles and categories
+
 = 1.0.1 - 2022-09-05 =
 * Added header / sidebar color styling option
 
