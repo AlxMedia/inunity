@@ -91,6 +91,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.3 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.0.2 - 2022-09-07 =
 * Added additional portfolio options for displaying or hiding titles and categories
 
