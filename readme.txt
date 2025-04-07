@@ -8,7 +8,7 @@ Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left
 
 == Description ==
 
-Inunity is a flexible portfolio theme with plenty of options. It is optimized for all devices. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. You can also enable a light/dark theme toggle switch in the sidebar. Demo: http://demo.alx.media/x/?theme=Inunity
+Inunity is a flexible portfolio theme with plenty of options. It is optimized for all devices. You can choose between light and dark theme, widget sidebar to the left or right - or no sidebar at all. You can also enable a light/dark theme toggle switch in the sidebar. Demo: https://demo.agnarson.com/?theme=Inunity
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Inunity is a flexible portfolio theme with plenty of options. It is optimized fo
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
